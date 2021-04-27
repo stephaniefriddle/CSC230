@@ -60,9 +60,9 @@ article.syllabus h1, article.syllabus h2 {
 aside {
    font-size: 0.8em;
 }
-
 aside blockquote {
    color: rgb(232, 165, 116);
+   margin: 20px 5px;
 }
 
 
