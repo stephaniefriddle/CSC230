@@ -76,8 +76,14 @@ nav > ul > li > a:active, nav > ul > li > a:hover {
 }
 
 /* Section Styles */
-
-
+h1 {
+   margin: 0px;
+   padding: 20px 0px 10px 20px;
+}
+section.playbill h1 {
+   font-size: 3em;
+   font-weight: normal;
+}
 
 
 
