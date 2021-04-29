@@ -50,7 +50,10 @@ header {
 
 
 /* Section Styles */
-
+p {
+   margin: 0px;
+   padding: 5px 25px 25px 25px;
+}
 
 
 
