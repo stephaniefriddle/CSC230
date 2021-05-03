@@ -26,6 +26,13 @@ body > footer {
    padding-top: 5px;
    padding-bottom: 5px;
 }
+body > footer address {
+   font-style: normal;
+   font-size: 0.9em;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
 
 /* Heading Styles */
 
