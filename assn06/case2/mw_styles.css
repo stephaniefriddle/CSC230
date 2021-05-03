@@ -89,4 +89,7 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
 }
 
 /* Blockquote Styles */
-
+blockquote {
+   background-color: rgb(173, 189, 227);
+   color: rgba(255, 255, 255, 0.65);
+}
