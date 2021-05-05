@@ -11,8 +11,6 @@
 
 */
 
-div.infobox {display: none;}
-
 /* Main Styles */
 main {
    position: relative;
@@ -47,24 +45,38 @@ div#info3 {
    left: 75%;
 }
 
-
 /* Fourth Infographic */
-
-
+div#info4 {
+   display: block;
+   top: 510px;
+   left: 8%;
+}
 
 /* Fifth Infographic */
-
-
+div#info5 {
+   display: block;
+   top: 800px;
+   left: 3%;
+}
 
 /* Sixth Infographic */
-
-
+div#info6 {
+   display: block;
+   top: 600px;
+   left: 48%;
+}
 
 /* Seventh Infographic */
-
-
+div#info7 {
+   display: block;
+   top: 1000px;
+   left: 68%;
+}
 
 /* Eighth Infographic */
-
-
+div#info8 {
+   display: block;
+   top: 1100px;
+   left: 12%;
+}
 
