@@ -24,8 +24,6 @@ div.row::after {
    display: table;
 }
 
-
-
 /* Grid Columns Styles */
 div[class^="col-"] {
    float: left;
@@ -38,6 +36,7 @@ div.col-2-3 {width: 66.67%;}
 div.col-1-4 {width: 25%;}
 div.col-3-4 {width: 75%;}
 
-
 /* Grid Outline Styles */
-
+div {
+   outline: 1px solid red;
+}
