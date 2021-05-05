@@ -59,6 +59,14 @@ section#rightColumn {
    width: 67%;
 }
 
+section#rightColumn img {
+   display: block;
+   width: 100%;
+}
+
+section#rightColumn > nav.horizontalNavigation li {
+   width: 25%;
+}
 
 
 
