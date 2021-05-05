@@ -22,7 +22,6 @@ body {
    width: 95%;
 }
 
-
 /* Body Header Styles */
 body > header > img {
    display: block;
@@ -52,8 +51,6 @@ section#leftColumn {
    width: 33%;
 }
 
-
-
 /* Right Column Styles */
 section#rightColumn {
    float: left;
@@ -69,7 +66,17 @@ section#rightColumn > nav.horizontalNavigation li {
    width: 25%;
 }
 
-
-
 /* Footer Styles */
+footer {
+   clear: left;
+}
 
+footer > nav.verticalNavigation {
+   float: left;
+   width: 22%;
+}
+
+footer > section#contactInfo {
+   float: left;
+   width: 34%;
+}
