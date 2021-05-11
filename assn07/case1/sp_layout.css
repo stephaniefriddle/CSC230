@@ -33,7 +33,6 @@ header, ul, nav, li, a {
    box-sizing: border-box;
 }
 
-
 /* Row Styles */
 .row::after {
    clear: both;
@@ -41,15 +40,24 @@ header, ul, nav, li, a {
    display: table;
 }
 
-
-
-
 /* Page Header Styles */
+body > header > img {
+   display: block;
+   width: 70%;
+   float: left;
+}
 
+body > header > nav {
+   float: left;
+   padding-left: 2%;
+   padding-right: 2%;
+   width: 30%;
+}
 
-
-
-
+body > header > nav li {
+   display: block;
+   width: 100%;
+}
 
 /* Horizontal Navigation List Styles */
 
