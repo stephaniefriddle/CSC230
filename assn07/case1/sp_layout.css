@@ -14,8 +14,24 @@
 */
 
 /* Window and Body Styles */
+html {
+   height: 100%;
+}
 
+body {
+   max-width: 960px;
+   min-width: 640px;
+   width: 95%;
+   margin-left: auto;
+   margin-right: auto;
+   min-height: 100%;
+}
 
+header, ul, nav, li, a {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
 
 
 /* Row Styles */
