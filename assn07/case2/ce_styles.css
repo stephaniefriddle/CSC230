@@ -13,8 +13,27 @@
 
 
 /* Window and Body Styles */
+html {
+   background-color: rgb(101, 101, 101);
+}
 
+body {
+   background-color: white;
+   font-family: Verdana, Geneva, Arial, sans-serif;
+   margin: 20px auto;
+   width: 95%;
+   max-width: 960px;
+   min-width: 320px;
+}
 
+img {
+   display: block;
+   width: 100%;
+}
+
+body > header > nav a:link {
+   text-decoration: none;
+}
 
 /* Body Header Styles */
 
