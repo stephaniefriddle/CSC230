@@ -36,8 +36,26 @@ body > header > nav a:link {
 }
 
 /* Body Header Styles */
+body > header {
+   background-color: rgb(191, 68, 70);
+   height: 40px;
+}
 
+body > header > nav > ul > li {
+   display: block;
+   float: left;
+   margin-right: 20px;
+   padding: 10px 0px;
+}
 
+body > header > nav a:link, body > header > nav a:visited  {
+   font-size: 0.9em;
+   color: rgb(51, 51, 51);
+}
+
+body > header > nav a:hover, body > header > nav a:active {
+   color: rgb(255, 211, 211);
+}
 
 /* DIV Container Styles */
 
