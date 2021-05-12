@@ -24,6 +24,7 @@ body {
    width: 95%;
    max-width: 960px;
    min-width: 320px;
+   position: relative;
 }
 
 img {
@@ -34,6 +35,7 @@ img {
 body > header > nav a:link {
    text-decoration: none;
 }
+
 
 /* Body Header Styles */
 body > header {
@@ -71,3 +73,11 @@ div.cell {
 }
 
 /* Footer Styles */
+footer {
+   position: absolute;
+   right: 8px;
+   bottom: 8px;
+   color: rgb(143, 33, 36);
+   text-align: right;
+   font-size: 2vmin;
+}
