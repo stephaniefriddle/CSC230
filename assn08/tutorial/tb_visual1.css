@@ -33,13 +33,10 @@ figure figcaption {
    text-align: center;
 }
 
-
 /* HTML Styles */
 html {
    background-image: url(tb_back1.png);
 }
-
-
 
 /* Article Styles */
 article {
@@ -49,15 +46,16 @@ article {
                rgb(211, 211, 211);
 }
 
-
-
 /* Page Body Styles */
-
-
-
+body {
+   border-left: 1px solid rgb(51, 51, 51);
+   border-right: 1px solid rgb(51, 51, 51);
+}
 
 /* Aside Styles */
-
+aside {
+   border: 4px double rgb(45, 93, 62);
+}
 
 
 /* Footer Styles */
