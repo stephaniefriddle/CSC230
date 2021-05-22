@@ -9,43 +9,48 @@ http://colormind.io/bootstrap/
 /* Main structural styles */
 html {
     background-color: #EBBE46;
-    padding: 0px 50px;
+    padding: 0em 5em;
 }
 
 body {
-    display: block;
     color: #f7f6f7;
     background-color: #403c55;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*Nav styles */
-header > h3, header > nav {
+nav {
+    overflow: hidden;
+}
+
+header > nav > ul > li {
     background-color: #95AAA4;
 }
 
-header > h3 {
+nav > ul > li#name {
     font: normal small-caps bold 2em/3em 'Lucida Sans';
     font-size: 2em;
     letter-spacing: 0.1em;
-    padding: 25px 50px 25px;
+    padding: 0px 300px 25px 50px;
     line-height: 1.5em;
+    float: left;
+    margin: 1em 1em 0em 1em;
 }
 
 nav > ul {
     background-color: #95AAA4;
-    position: absolute;
-    top: 25px;
-    right: 58px;
-    list-style-type: none;
+    list-style: none;
     padding: 5px;
+    float: right;
+    width: 95%;
 }
 nav > ul > li {
-    float: right;
-    margin-top: 50px;
+    float: left;
+    margin-top: 75px;
 }
 
 nav > ul > li > a {
+    margin-top: 200px;
     padding: 50px;
     text-decoration: none;
 }
@@ -54,4 +59,6 @@ nav > ul > li a:hover {
     background-color: #403c55;
     color: #f7f6f7;
 }
+
+/* Footer stlyes */
 
