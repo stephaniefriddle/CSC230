@@ -6,7 +6,7 @@
 #403C55
 http://colormind.io/bootstrap/
 */
-/* Main structural styles */
+/* Main html and body styles */
 html {
     background-color: #EBBE46;
     padding: 0em 5em;
@@ -67,4 +67,9 @@ nav > ul > li a:hover {
 }
 
 /* Footer stlyes */
-
+footer {
+    background-color: #95AAA4;
+    color: #403c55;
+    text-align: center;
+    padding: 1em 0em;
+}
