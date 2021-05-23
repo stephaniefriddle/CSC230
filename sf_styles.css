@@ -100,6 +100,11 @@ section > div > p > a:hover {
     text-decoration: underline;
 }
 
+/* Contact site styles */
+section > div > h1, p#contact {
+    text-align: center;
+}
+
 /* Footer styles */
 .footer {
     flex-shrink: 0;
