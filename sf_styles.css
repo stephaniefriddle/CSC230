@@ -68,17 +68,20 @@ nav > ul > li a:hover {
 }
 
 /* Section styles */
-section {
-    display: block;
-    clear: both;
-}
-section#right {
-    float: right;
+.container {
+    display:flex;
+    justify-content: space-between;
 }
 
-section#left {
-    float: left;
-    margin: 2em;
+aside {
+    padding: 5em;
+    }
+    
+img {
+    border-radius: 30px;
+}
+div#words {
+    padding: 5em;
 }
 
 /* Footer styles */
