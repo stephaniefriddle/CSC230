@@ -2,29 +2,40 @@
 <html>
     <head>
         <title>Stephanie Friddle</title>
+        <link href="sf_layout.css" rel="stylesheet" />
+        <link href="sf_styles.css" rel="stylesheet" />
     </head>
     <body>
         <header>
-            Main heading of page
             <nav>
-                <ul>
-                    <li><a href="sf_index.html">Home</a></li>
-                    <li><a href="sf_resume.html">Resume</a></li>
+                <ul class="container">
+                    <li id="name">Stephanie <br> Friddle</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sf_resume.pdf">Resume</a></li>
                     <li><a href="sf_projects.html">Projects</a></li>
                     <li><a href="sf_contact.html">Contact</a></li>
                  </ul>
             </nav>
-            <h1>Stephanie Friddle</h1>
-            <img src="sf_self_image.jpg" height="200" alt="Stephanie Friddle"/>
-            <h3>Major: Information Technology</h3>
-            <p>Expected graduation: 2023</p>
         </header>
-        <article>
+        <section class="content">
+            <div class="container">
             <aside>
-                
-            </aside>
-        </article>
-        <footer>
+                <img src="sf_self_image.jpg" height="400" alt="Stephanie Friddle"/>
+                </aside>
+            <div id="words">
+            <h1>Hello! I'm Stephanie</h1>
+            <p>I'm currently attending Sullivan Univserity persuing my Associate's degree in Information Technology.
+                My expected graduation is September 2021. I've taken courses to develop my skills for programming in C#, website design,
+                database design, cybersecurity, computer hardware, networking, and the principles of technology. Please head over 
+                to the project section of my website and take a look at what I've done!
+            </p>
+            <p>My favorite courses have been programming, database design, and website design.
+                I'd love to enter the workforce in one of these fields and am actively looking for jobs.
+            </p>
+            </div>
+        </div>
+        </section>
+        <footer class="footer">
             Stephanie Friddle &#8226 stephanie.friddle@gmail.com &#8226 www.github.com/stephaniefriddle
         </footer>
     </body>
