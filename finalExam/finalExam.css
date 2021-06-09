@@ -24,6 +24,7 @@ h1 {
     letter-spacing: 2px;
     margin: 0px;
     padding: 15px 0px 0px 15px;
+    background-color: #5c6d8b;
 }
 
 h3 {
@@ -40,33 +41,43 @@ p {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #85969a;
 }
 
 a:hover {
-    color:#2b2f3d;
+    color: #5c6d8b;
 }
-
 /* Header styles */
 #headerContainer {
     display: flex;
     justify-content: space-between;
+    background-color: #826C6D;
 }
 
 header h1 {
     font-size: 36pt;
     margin: 35px 0px 0px;
     padding: 15px 0px  0px 15px;
+    font-variant: small-caps;
+    background-color: #826C6D;
 }
 
 header h3 {
     font-size: 24pt;
     margin: 0px;
     padding: 0px 0px 15px 15px;
+    background-color: #826C6D;
 }
 
 img {
     width: 175px;
-    padding-bottom: 10px;
+    height: 212px;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 /* Nav styles */
@@ -107,12 +118,16 @@ div[class^="col-"] {
 }
 
 div.col-1-4 {
-    width: 25%;
+    width: 25%; /* I did not add a height here. It would not be responsive,
+    so I added a background color to the container (.row) */
 }
 
 div.col-3-4 {
     width: 75%;
-    background-color: #85969a;
+}
+
+.row {
+    background-color: #826C6D;
 }
 
 /* Table styles */
@@ -124,7 +139,7 @@ table {
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #a0b195;
+    background-color: #515e61;
     text-align: center;
     font-weight: bold;
 }
@@ -136,6 +151,6 @@ tbody tr:nth-child(even) {
 
 /* Footer styles */
 footer {
-    background-color: #826C6D;
+    background-color: #515e61;
     text-align: center;
 }
