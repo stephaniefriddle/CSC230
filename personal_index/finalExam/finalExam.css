@@ -14,7 +14,6 @@ body {
     font-size: 16pt;
     width: 85%;
     margin: auto;
-    background-color: #2b2f3d;
 }
 
 h1 {
@@ -43,18 +42,15 @@ a {
 }
 
 a:hover {
-    color:#2b2f3d;
+    color: aqua;
 }
 
 .rightSide {
     float: left;
+    width: 75%;
+    padding: 15px;
 }
 /* Header styles */
-#headerContainer {
-    display: flex;
-    justify-content: space-around;
-}
-
 header h1 {
     font-size: 36pt;
     margin: 35px 0px 0px;
@@ -68,29 +64,20 @@ header h3 {
 }
 
 img {
-    width: 175px;
-    padding-bottom: 10px;
+    float: right;
+    width: 200px;
 }
 
 /* Nav styles */
 nav {
     text-align: center;
-    vertical-align: top;
+    width: 25%;
     margin: 0px;
     padding: 0px;
-    background-color: #826C6D;
 }
 
-
-/* Section styles */
-section {
-    background-color: #85969a;
-    width: 75%!important;
-    padding: 15px;
-}
-
-#content {
-    display: flex;
+.leftSide {
+    float: left;
 }
 
 /* Table styles */
@@ -99,17 +86,6 @@ table {
     padding: 2px 5px;
     width: 90%;
     margin-left: 30px;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: #a0b195;
-    text-align: center;
-    font-weight: bold;
-}
-
-tbody tr:nth-child(even) {
-    text-align: left;
-    vertical-align: top;
 }
 
 /* Footer styles */

@@ -1,0 +1,118 @@
+/* Colors 
+#F7F6F7
+#EBD546
+#95AAA4
+#A7455F
+#403C55
+http://colormind.io/bootstrap/
+*/
+/* Main html and body styles */
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 700px;
+    color: #f7f6f7;
+    background-color: #403c55;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+/*Nav styles */
+nav {
+    overflow: hidden;
+}
+
+header > nav > ul > li {
+    background-color: #95AAA4;
+}
+
+nav > ul > li#name {
+    font: normal small-caps bold 2em/3em 'Lucida Sans';
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    padding: 0em 3em .5em .75em;
+    line-height: 1.5em;
+    float: left;
+    margin: 1em 1em 0em 1em;
+}
+
+nav > ul {
+    background-color: #95AAA4;
+    list-style: none;
+    padding: 5px;
+    float: right;
+    width: 90%;
+}
+nav > ul > li {
+    float: left;
+    margin-top: 75px;
+}
+
+nav > ul > li > a {
+    margin-top: 200px;
+    padding: 40px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #403c55;
+}
+
+nav > ul > li a:hover {
+    background-color: #403c55;
+    color: #f7f6f7;
+}
+
+/* Section styles */
+.container {
+    display:flex;
+    justify-content: space-between;
+}
+
+aside {
+    padding: 5em;
+    }
+
+img {
+    border-radius: 30px;
+}
+div#words {
+    padding: 5em;
+}
+
+/* Project site styles */
+section > div > h3 {
+    padding: 2em 3em;
+}
+section > div > p {
+    padding: .5em 3em;
+}
+section > div > p > a:active, section > div > p > a:visited, section > div > p > a:link {
+    color: #f7f6f7;
+    text-decoration: none;
+}
+section > div > p > a:hover {
+    color: #f7f6f7;
+    text-decoration: underline;
+}
+
+/* Contact site styles */
+section > div > h1, p#contact {
+    text-align: center;
+}
+
+/* Footer styles */
+.footer {
+    flex-shrink: 0;
+}
+footer {
+    background-color: #95AAA4;
+    color: #403c55;
+    text-align: center;
+    padding: 1em 0em;
+}
+
