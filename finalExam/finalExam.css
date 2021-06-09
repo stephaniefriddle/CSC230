@@ -31,7 +31,7 @@ h3 {
     font: Arial;
     font-size: 16pt;
     text-align: left;
-
+    /* I'm not sure what this is supposed to be referring to in the main page */
 }
 
 p {
@@ -50,6 +50,7 @@ nav a:hover {
 
 a:hover {
     color: #5c6d8b;
+    font-weight: bold;
 }
 /* Header styles */
 #headerContainer {
@@ -93,7 +94,7 @@ li {
     list-style-type: none;
 }
 
-ul {
+nav ul {
     margin: 0px;
     padding: 0px;
 }
@@ -151,6 +152,7 @@ tbody tr:nth-child(even) {
 
 /* Footer styles */
 footer {
-    background-color: #515e61;
+    background-color: #826C6D;
     text-align: center;
+    padding: 10px 0px;
 }
