@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*       
+    Author: Stephanie Friddle
+    Date:   6/1/21
+    Required Files: finalExam.html, finalExam.css
+    Description: CSC230 Website Design Final Exam Project
+*/
+
+/* HTML and Body styles */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 16pt;
+    width: 85%;
+    margin: auto;
+    background-color: #2b2f3d;
+}
+
+h1 {
+    font: Arial;
+    font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 15px 0px 0px 15px;
+    background-color: #5c6d8b;
+}
+
+h3 {
+    font: Arial;
+    font-size: 16pt;
+    text-align: left;
+    /* I'm not sure what this is supposed to be referring to in the main page */
+}
+
+p {
+    margin: 15px;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #85969a;
+}
+
+a:hover {
+    color: #5c6d8b;
+    font-weight: bold;
+}
+/* Header styles */
+#headerContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #826C6D;
+}
+
+header h1 {
+    font-size: 36pt;
+    margin: 35px 0px 0px;
+    padding: 15px 0px  0px 15px;
+    font-variant: small-caps;
+    background-color: #826C6D;
+}
+
+header h3 {
+    font-size: 24pt;
+    margin: 0px;
+    padding: 0px 0px 15px 15px;
+    background-color: #826C6D;
+}
+
+img {
+    width: 175px;
+    height: 212px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/* Nav styles */
+nav {
+    text-align: center;
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+    background-color: #826C6D;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+/* Main styles */
+section {
+    background-color: #85969a;
+    padding: 15px;
+}
+
+div.row {
+    clear: both;
+}
+
+div.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+div[class^="col-"] {
+    float: left;
+}
+
+div.col-1-4 {
+    width: 25%; /* I did not add a height here. It would not be responsive,
+    so I added a background color to the container (.row) */
+}
+
+div.col-3-4 {
+    width: 75%;
+}
+
+.row {
+    background-color: #826C6D;
+}
+
+/* Table styles */
+table {
+    border: none;
+    padding: 2px 5px;
+    width: 90%;
+    margin-left: 30px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #515e61;
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Footer styles */
+footer {
+    background-color: #826C6D;
+    text-align: center;
+    padding: 10px 0px;
+}
