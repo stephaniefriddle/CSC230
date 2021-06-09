@@ -46,13 +46,10 @@ a:hover {
     color:#2b2f3d;
 }
 
-.rightSide {
-    float: left;
-}
 /* Header styles */
 #headerContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -81,16 +78,41 @@ nav {
     background-color: #826C6D;
 }
 
+li {
+    list-style-type: none;
+}
 
-/* Section styles */
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+/* Main styles */
 section {
     background-color: #85969a;
-    width: 75%!important;
     padding: 15px;
 }
 
-#content {
-    display: flex;
+div.row {
+    clear: both;
+}
+
+div.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+div[class^="col-"] {
+    float: left;
+}
+
+div.col-1-4 {
+    width: 25%;
+}
+
+div.col-3-4 {
+    width: 75%;
+    background-color: #85969a;
 }
 
 /* Table styles */
@@ -114,5 +136,6 @@ tbody tr:nth-child(even) {
 
 /* Footer styles */
 footer {
-    float: left;
+    background-color: #826C6D;
+    text-align: center;
 }
